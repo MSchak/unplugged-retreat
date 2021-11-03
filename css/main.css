@@ -96,6 +96,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 
 ul,
@@ -108,21 +109,27 @@ a {
   text-decoration: none;
 }
 
+h1{
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
-  line-height: 2.25em;
+  font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
-  font-size: 1.14em;
-  line-height: 1.125em;
+  font-size: .875em;
+  line-height: 1.285;
 }
 
 img {
@@ -154,6 +161,13 @@ footer{
 
 header{
   padding: 15px 0;
+  background-color: #202322;
+}
+
+header h1{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 header .content-wrapper{
@@ -176,6 +190,13 @@ header nav ul{
   display: flex;
   justify-content:space-between;
   width: 45%;
+}
+
+header nav ul li{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.125em;
 }
 
 .header-divider{
@@ -209,6 +230,33 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 aside .content-wrapper{
@@ -260,7 +308,7 @@ aside .form{
 }
 
 .features-item-description{
-
+  text-align: center;
 }
 
 
@@ -270,6 +318,7 @@ aside .form{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews .content-wrapper{
@@ -303,6 +352,7 @@ aside .form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 
@@ -332,6 +382,7 @@ figure{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section .content-wrapper{
@@ -352,6 +403,7 @@ figure{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper{
@@ -372,6 +424,7 @@ figure{
            /*--------------Base Footer Styles-------------*/
 footer{
   padding-top: 50px;
+  background-color:#202322;
 }
 
 footer .content-wrapper{
