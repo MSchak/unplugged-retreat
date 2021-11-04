@@ -387,14 +387,6 @@ aside .form{
   background-color: #2a423a;
 }
 
-.contact-section .content-wrapper{
-
-}
-
-.contact-content{
-
-}
-
 
 /* ==========================================================================
    FAQ Page
@@ -443,38 +435,34 @@ footer address p{
   text-align: center;
 }
 
-footer .contact{
-
-}
-
-address{
-
-}
-
 footer address h2{
   margin-bottom: 15px;
 }
 
-footer .social{
-
-}
-
-footer .social h2{
-  margin-top: 45px;
-  margin-bottom:
-}
-
-footer .social-icons{
+footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 footer .social-icons p{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+footer .social-icons p i {
+   font-size: 1.125em;
+}
+
+footer .social h2{
+  margin-top: 45px;
+}
+
 
 footer .copyright{
   margin-top: 45px;
@@ -708,9 +696,14 @@ footer .content-wrapper {
   margin-bottom: 100px;
 }
 
+footer .footer-content .social{
+  width: 30%;
+}
+
 footer .contact {
   margin-bottom: 0;
 }
+
 
 footer .copyright {
   width: 100%;
@@ -740,7 +733,6 @@ footer .copyright {
 .contact-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 /* ==========================================================================
   FAQ Page
@@ -856,6 +848,11 @@ FAQ Page
 .faq p{
   font-size: 1.125em;
   line-height: 1.125em;
+}
+
+/*Footer*/
+footer .footer-content .social{
+  width: 20%;
 }
 
 }
