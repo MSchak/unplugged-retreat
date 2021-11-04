@@ -191,7 +191,7 @@ header nav{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 100%;
 }
 
 header nav ul{
@@ -214,6 +214,61 @@ header nav ul li{
   background: #3a3a3a;
 }
 
+          /*--------------Footer Styles-------------*/
+footer{
+padding-top: 50px;
+background-color:#202322;
+}
+
+footer .content-wrapper{
+width: 55%;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+footer address p{
+margin: 0;
+}
+
+.footer-content{
+text-align: center;
+}
+
+footer address h2{
+margin-bottom: 15px;
+}
+
+footer .social-icons {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+footer .social-icons p{
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background-color: #527158;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer .social-icons p i {
+font-size: 1.125em;
+}
+
+footer .social h2{
+margin-top: 45px;
+}
+
+
+footer .copyright{
+margin-top: 45px;
+margin-bottom: 0;
+text-align: center;
+}
+
         /*--------------Mobile Styles - Homepage -------------*/
 
 .hero-area{
@@ -226,13 +281,6 @@ header nav ul li{
   background-position: center;
   min-height: 500px;
   background-color: #527158;
-}
-
-.hero-area .content-wrapper{
-}
-
-.hero-img{
-
 }
 
 
@@ -270,19 +318,6 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
-
-aside .content-wrapper{
-
-}
-
-aside .form-description{
-
-}
-
-aside .form{
-
-}
-
 
                   /*---Feature Items Styles---*/
 
@@ -415,60 +450,7 @@ aside .form{
   margin-bottom: 45px;
 }
 
-           /*--------------Base Footer Styles-------------*/
-footer{
-  padding-top: 50px;
-  background-color:#202322;
-}
 
-footer .content-wrapper{
-  width: 55%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-footer address p{
-  margin: 0;
-}
-
-.footer-content{
-  text-align: center;
-}
-
-footer address h2{
-  margin-bottom: 15px;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer .social-icons p{
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: #527158;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons p i {
-   font-size: 1.125em;
-}
-
-footer .social h2{
-  margin-top: 45px;
-}
-
-
-footer .copyright{
-  margin-top: 45px;
-  margin-bottom: 0;
-  text-align: center;
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -582,7 +564,7 @@ p{
   max-width: 640px;
    margin: 100px 0;
 }
-  /* Header */
+  /* Header And Footer Styles*/
 
 header {
   justify-content: center;
@@ -611,6 +593,35 @@ header nav ul li{
 
 .header-divider{
   display: none;
+}
+
+
+   /* Footer */
+footer .content-wrapper {
+  width: 65%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  }
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+footer .footer-content .social{
+  width: 30%;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+
+footer .copyright {
+  width: 100%;
 }
 
 /*Hero Area*/
@@ -679,34 +690,6 @@ aside .form{
 .reviews h3{
   width: auto;
   margin: 0;
-}
-
-   /* Footer */
-footer .content-wrapper {
-  width: 65%;
-  margin-top: 50px;
-  margin-bottom: 0;
-  }
-
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
-footer .footer-content .social{
-  width: 30%;
-}
-
-footer .contact {
-  margin-bottom: 0;
-}
-
-
-footer .copyright {
-  width: 100%;
 }
 
 /* ==========================================================================
@@ -782,12 +765,16 @@ p{
   max-width: 960px;
 }
 
-/*Header*/
+/*Header and Footer styles*/
 
 header nav ul li{
   font-size: 1.125em;
 }
 
+/*Footer*/
+footer .footer-content .social{
+  width: 20%;
+}
 
 /* Aside */
 aside .content-wrapper {
@@ -848,11 +835,6 @@ FAQ Page
 .faq p{
   font-size: 1.125em;
   line-height: 1.125em;
-}
-
-/*Footer*/
-footer .footer-content .social{
-  width: 20%;
 }
 
 }
