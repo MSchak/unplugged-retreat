@@ -297,10 +297,6 @@ aside .form{
   background-color:#202322;
 }
 
-.features .content-wrapper{
-
-}
-
 .features h2{
   margin-bottom: 60px;
   margin-top: 50px;
@@ -320,8 +316,13 @@ aside .form{
   margin-bottom: 55px;
 }
 
-.fontawesome-icon{
-  margin-bottom: 40px;
+.fontawesome-icon {
+    text-align: center;
+}
+
+.features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
 }
 
 .features-item-description{
@@ -655,6 +656,11 @@ aside .form{
   align-items: space-between;
   flex-flow: row wrap;
   flex-basis: auto;
+}
+
+.features i {
+    font-size: 4.5em;
+    margin-bottom: 30px;
 }
    /* Reviews */
 
