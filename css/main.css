@@ -481,19 +481,26 @@ input[type=button] {
 .faq .content-wrapper{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+  margin-top: 45px;
+  margin-bottom: 0;
 }
 
 .faq h2{
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .faq-content{
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
+.faq-content h4{
+  margin-bottom: 15px;
+}
 
+.faq-content p{
+  margin-bottom: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -800,7 +807,8 @@ aside .form{
 
 .faq .content-wrapper {
   justify-content: space-between;
-  margin: 45px 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .faq-content {
@@ -809,6 +817,7 @@ aside .form{
 
 .faq h2 {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .faq h4,
