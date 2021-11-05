@@ -407,6 +407,10 @@ input[type=button] {
    ========================================================================== */
 
                       /*---Mission Styles---*/
+.mission .content-wrapper{
+  margin-bottom: 30px;
+  }
+
 .mission{
   display: flex;
   justify-content: center;
@@ -415,6 +419,13 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission h2{
+  margin-bottom: 20px;
+}
+
+.mission p{
+  margin-bottom: 20px;
+}
                         /*---Map Styles---*/
 .map figure{
   width: 100%;
@@ -433,6 +444,9 @@ input[type=button] {
 }
 
                     /*---Contact Section Styles---*/
+.contact-section .content-wrapper{
+  margin-bottom: 35px;
+}
 .contact-section{
   display: flex;
   justify-content: center;
@@ -441,7 +455,17 @@ input[type=button] {
   background-color: #2a423a;
 }
 
+.contact-section h2{
+  margin-bottom: 20px;
+}
 
+.contact-section .contact-content h4{
+  margin-bottom: 15px;
+}
+
+.contact-section .contact-content p{
+  margin-bottom: 15px;
+}
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -729,6 +753,9 @@ aside .form{
 /* ==========================================================================
    About Page
 ========================================================================== */
+.mission .content-wrapper{
+    margin: 100px;
+}
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -737,19 +764,34 @@ aside .form{
 
 .mission-content p {
   width: 45%;
+  margin: 0;
+}
+
+.mission h2{
+  margin-bottom: 80px;
 }
 
 .map figure{
   padding-bottom: 45%;
 }
 
-.contact-section .content-wrapper h2 {
+.contact-section .content-wrapper{
+  margin-bottom: 85px;
+}
+
+.contact-section h2 {
   width: 78%;
+  margin-bottom: 50px;
 }
 
 .contact-content {
   display: flex;
   justify-content: space-between;
+  width: 96%;
+}
+
+.contact-section .contact-content h4 {
+    margin-bottom: 20px;
 }
 /* ==========================================================================
   FAQ Page
@@ -784,7 +826,7 @@ h1{
 }
 
 h2{
-  font-size: 2.25em;
+  font-size: 3em;
 }
 h3,
 h4 {
@@ -869,13 +911,28 @@ aside .content-wrapper .form {
 /* ==========================================================================
 About Page
 ========================================================================== */
-.mission h2,
-.contact-section .content-wrapper h2 {
+.mission h2{
   width: 90%;
+  margin-bottom: 35px;
+}
+.contact-section .content-wrapper h2 {
+  width: 100%;
 }
 
 .map figure{
   padding-bottom: 38%;
+}
+
+.contact-section h2 {
+  margin-bottom: 40px;
+}
+
+.contact-content{
+  width: 88%;
+}
+
+.contact-section .contact-content h4 {
+    margin-bottom: 40px;
 }
 
 /* ==========================================================================
